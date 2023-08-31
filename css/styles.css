@@ -1,0 +1,83 @@
+body{
+  background-image: url("../images/coffee-roast.jpg");
+  font-family: sans-serif;
+}
+
+h1, h2{
+  text-align: center;
+  font-family: Impact,serif;
+}
+
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+hr{
+  border: 2.5px solid brown;
+}
+
+p{
+  font-size: 20px;
+}
+
+.camper-cafe{
+  width: 80%;
+  max-width:  500px;
+  background-color: burlywood;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.established{
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: -10px;
+}
+
+.coffee p, .dessert p{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.dessert{
+  margin-bottom: 1rem;
+}
+
+.coffee-menu, .dessert-menu{
+  display: inline-block;
+  width: 75%;
+}
+
+.coffee-price, .dessert-price{
+  width: 24%;
+  display: inline-block;
+  text-align: right;
+}
+
+img{
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin: -15px auto 5px;
+
+}
+
+.footer p{
+  text-align: center;
+  line-height: 1;
+  font-size: 15px;
+}
+a{
+  color: black;
+
+}
+
+a:hover{
+  color: brown;
+}
